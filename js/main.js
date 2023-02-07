@@ -16,7 +16,3 @@ function getAge(datestring) {
 
 var ageElement = document.getElementById("age");
 ageElement.innerText = getAge(birthdate);
-
-
-
-console.log();
