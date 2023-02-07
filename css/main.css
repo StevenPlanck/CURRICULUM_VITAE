@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+}
+
+body {
+    background-color: #5e6970;
+    background-image: linear-gradient(135deg, #2d3031 0%, #464a7f 100%);
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section div {
+    text-align: center;
+}
